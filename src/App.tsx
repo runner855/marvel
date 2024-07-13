@@ -1,7 +1,11 @@
 import React from "react";
 import "./App.css";
+import { NavBar } from "./components/NavBar/NavBar";
 
 export const App = () => {
-  console.log(process.env);
-  return <div className="App">Marvel</div>;
+  return (
+    <div className="App">
+      <NavBar />
+    </div>
+  );
 };
